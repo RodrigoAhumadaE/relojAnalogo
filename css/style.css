@@ -25,11 +25,11 @@
 }
 
 #minutes {
-  left: 49.9%;
+  left: 49.5%;
   background-color: grey;
   height: 90px;
   width: 1px;
-  border: grey solid 1px;
+  border: grey solid 2.5px;
   transform: rotate(180deg);
   border-radius: 10px;
 }
