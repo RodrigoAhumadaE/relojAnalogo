@@ -1,0 +1,165 @@
+#face {
+  background-color: #f3f3f3;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 6px solid black;
+  position: relative;
+}
+
+#minutes, #hour, #seconds {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform-origin: top center;
+}
+
+#hour {
+  left: 48.35%;
+  background-color: black;
+  height: 70px;
+  width: 1px;
+  border: black solid 5px;
+  transform: rotate(90deg);
+  border-radius: 15px;
+}
+
+#minutes {
+  left: 49.9%;
+  background-color: grey;
+  height: 90px;
+  width: 1px;
+  border: grey solid 1px;
+  transform: rotate(210deg);
+  border-radius: 10px;
+}
+
+#seconds {
+  background-color: red;
+  height: 110px;
+  width: 2px;
+  border-radius: 5px;
+  transform: rotate(150deg);
+}
+
+#centro {
+  position: absolute;
+  left: 47%;
+  top: 47%;
+  background-color: black;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  /* filter: opacity(0.2); */
+}
+
+.hora {
+  position: absolute;
+  background-color: black;
+  width: 20px;
+  height: 10px;
+  border-radius: 0 15px 15px 0;
+}
+
+.num {
+  position: absolute;
+  color: #3b3b3b;
+  font-family: Roboto;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.cero {
+  top: 1%;
+  left: 47%;
+  transform: rotate(90deg);
+}
+
+.num-cero{
+  top: 3.2%;
+  left: 40.5%;
+}
+
+.uno {
+  top: 7%;
+  left: 71%;
+  transform: rotate(120deg);
+}
+
+.dos {
+  top: 25%;
+  left: 88%;
+  transform: rotate(150deg);
+}
+
+.tres {
+  top: 48.5%;
+  left: 93.35%;
+  transform: rotate(180deg);
+}
+
+.num-tres {
+  top: 40.5%;
+  left: 84.8%;
+}
+
+.cuatro {
+  top: 72%;
+  left: 88%;
+  transform: rotate(210deg);
+}
+
+.cinco {
+  top: 90%;
+  left: 71%;
+  transform: rotate(240deg);
+}
+
+.seis {
+  top: 95%;
+  left: 47%;
+  transform: rotate(-90deg);
+}
+
+.num-seis {
+  top: 77.3%;
+  left: 45.5%;
+}
+
+.siete {
+  top: 90%;
+  left: 23%;
+  transform: rotate(300deg);
+}
+
+.ocho {
+  top: 72%;
+  left: 5%;
+  transform: rotate(330deg);
+}
+
+.nueve {
+  top: 48.5%;
+}
+
+.num-nueve {
+  top: 40.5%;
+  left: 6.5%;
+}
+
+.diez {
+  top: 25%;
+  left: 5%;
+  transform: rotate(30deg);
+}
+
+.once {
+  top: 7%;
+  left: 23%;
+  transform: rotate(60deg);
+}
+
+.secundaria{
+  filter: opacity(0.7);
+  height: 8px;
+}
